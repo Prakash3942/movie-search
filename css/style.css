@@ -10,6 +10,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  overflow: hidden;
+
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
 }
 
 .header-section .logo h1 {
@@ -49,4 +55,49 @@ input {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+/* movies section  */
+.movies-section {
+  margin: 77px 103px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+
+  border: 1px solid rgb(175 245 232);
+  padding: 15px;
+}
+.movies-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.rating {
+  color: grey;
+  font-size: 22px;
+}
+
+.movies-card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: rgb(81 181 162);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.movies-section .movies-card h1 {
+  padding: 10px 0;
+}
+.movies-section .movies-card p {
+  padding: 5px 0;
+}
+.movies-card:hover {
+  box-shadow: 0 8px 16px 0 rgb(81 181 162);
 }
