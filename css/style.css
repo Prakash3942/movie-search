@@ -58,7 +58,7 @@ input {
 }
 
 /* movies section  */
-.movies-section {
+.movies_section {
   margin: 77px 103px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -92,10 +92,10 @@ input {
   font-size: 18px;
 }
 
-.movies-section .movies-card h1 {
+.movies_section .movies-card h1 {
   padding: 10px 0;
 }
-.movies-section .movies-card p {
+.movies_section .movies-card p {
   padding: 5px 0;
 }
 .movies-card:hover {
